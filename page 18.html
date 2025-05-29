@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Public+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#111b22] dark justify-between group/design-root overflow-x-hidden"
+      style='font-family: "Public Sans", "Noto Sans", sans-serif;'
+    >
+      <div>
+        <div class="flex items-center bg-[#111b22] p-4 pb-2 justify-between">
+          <div class="text-white flex size-12 shrink-0 items-center" data-icon="ArrowLeft" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path>
+            </svg>
+          </div>
+          <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-12">Report Assigned</h2>
+        </div>
+        <div class="flex w-full grow bg-[#111b22] @container p-4">
+          <div class="w-full gap-1 overflow-hidden bg-[#111b22] @[480px]:gap-2 aspect-[3/2] rounded-xl flex">
+            <div
+              class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none flex-1"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCXM4k3PftnKDeUjCk1NYWfoqc5f4cICDj3Rrm_krkNdO1AhD09HFEBfJlQTvMX1KiQ27M8IemeqAu-BBN7CuRFE8TeoUZXkCBOMf71nsfqGv31rJtkRLSOJzKbKqD2IVS0oCOQMNHq6j8GWQcegvJ-YpvyT6u64pysClQuBaUW9Fgro_dXmt1Bok0P_cTcTX55N90KBW0BwfSqjPuTdpx8F87kI1X6vCvxeDfZOsZMPEUnqy5RXZRFI6JCt404F7pTwZQVTS-Z3hE");'
+            ></div>
+          </div>
+        </div>
+        <h1 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 text-center pb-3 pt-5">Report Assigned</h1>
+        <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4 text-center">
+          Your report has been assigned to the Sanitation Team for handling. You will receive updates as they address the issue.
+        </p>
+      </div>
+      <div>
+        <div class="flex px-4 py-3">
+          <button
+            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-5 flex-1 bg-[#1993e5] text-white text-base font-bold leading-normal tracking-[0.015em]"
+          >
+            <span class="truncate">Got it</span>
+          </button>
+        </div>
+        <div class="h-5 bg-[#111b22]"></div>
+      </div>
+    </div>
+  </body>
+</html>
